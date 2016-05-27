@@ -1,0 +1,139 @@
+/* Layout */
+#reg_outer_wrapper
+{
+	margin-top: 30px;
+	border: 2px solid #DDD;
+	border-radius: 20px;
+	display: block;
+	margin-left: 10%;
+	width: 70%;
+	padding: 20px;
+}
+
+#reg_inner_wrapper
+{
+	border-radius: 20px;
+	display: block;
+	margin-left: 50px;
+	width: 400px;
+}
+
+#reg_header
+{
+	width: 100%;
+	padding-bottom: 40px;
+}
+
+
+#reg_form
+{
+}
+
+
+#reg_form div
+{
+	display: block;
+	padding-bottom: 30px;
+}
+
+#reg_form div label
+{
+	float: left;
+	width: 100px;
+	line-height: 1em;
+}
+label.error
+{
+	float: right !important;
+	width: 200px !important;
+}
+
+#reg_form div input
+{
+	float: right;
+	width: 200px;
+	height: 25px;
+}
+
+
+
+/* Header */
+
+#reg_header_lbl
+{
+	font-size: 30px;
+	display: block;
+}
+
+#reg_error_row
+{
+	
+}
+#reg_error
+{
+	display: block;
+	margin-left: 10px;
+}
+
+
+#reg_req_lbl_row
+{
+	
+}
+#reg_req_lbl
+{
+	display: block;
+	margin-right: 14px;
+	float: right;
+}
+
+/* Profile Picture*/
+
+#reg_profile_wrapper
+{
+	float: right;
+	width: 110px !important;
+	height: 120px !important;
+	
+	position: relative;
+	margin-right: 8px;
+	
+	border-radius: 20px;
+	border: 3px dotted #DDD;
+}
+
+#reg_profile_preview
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	
+	width: 100px;
+	display: block;
+}
+
+#reg_profile_upload_lbl
+{
+	float: right !important;
+	clear: both;
+	display: block;
+	margin: 8px;
+}
+
+
+/* Button Row */
+#reg_button_row
+{
+	width: 100%;
+	padding-top: 15px;
+}
+
+#reg_reset, #reg_submit
+{
+	float: right;
+	margin-left: 10px;
+	width: 80px !important;
+	height: auto !important;
+}
+
