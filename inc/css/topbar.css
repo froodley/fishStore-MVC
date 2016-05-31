@@ -103,7 +103,14 @@ header
 #topmenu_wrapper
 {
 	overflow: hidden; /* wraps the floats */
-	background-color: #37F; /*TODO*/
+	background-color: #690; /*TODO*/
+	
+	background: #690;
+	background: -webkit-linear-gradient(left, #690 , #FFF);
+	background: -o-linear-gradient(right, #690, #FFF);
+	background: -moz-linear-gradient(right, #690, #FFF);
+	background: linear-gradient(to right, #690 , #FFF);
+	
 	height: 40px !important;
 }
 

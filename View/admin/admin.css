@@ -2,7 +2,13 @@
 #admin_menu_wrapper
 {
 	overflow: hidden; /* wraps the floats */
-	background-color: #669900; /*TODO*/
+	
+	background: #690;
+	background: -webkit-linear-gradient(left, #690 , #FFF);
+	background: -o-linear-gradient(right, #690, #FFF);
+	background: -moz-linear-gradient(right, #690, #FFF);
+	background: linear-gradient(to right, #690 , #FFF);
+
 	height: 45px !important;
 }
 
