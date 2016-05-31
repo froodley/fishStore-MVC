@@ -49,7 +49,7 @@ function ctrAdminUsers( $scope, $http, factory, util )
 	{
 		$scope.User.usr_birthday = $scope.User.usr_birthday.toMDY();
 		
-		$http(	{ 	method: "POST",
+		$http(	{ 	method: "PUT",
 					url: "/admin?view=users",
 					data: $scope.User
 				} ).

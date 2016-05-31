@@ -64,15 +64,24 @@ class admin extends \fishStore\Base\Controller
 	{
 		global $_ENVELOPE, $dbh, $ini;
 		
-		#TODO: SWITCH
+		
 		return self::_modifyUser();
 		
 	}
 	
 	public function PUT( $id )
 	{
-		parse_str(file_get_contents("php://input"),$post_vars);
-		GET( $id, $query );
+		$data = $json_decode(file_get_contents("php://input"), true);
+		
+		
+		// TODO: Add a switch, this is the admin controller, not admin-users
+		
+		foreach( $data as $k => $v )
+		{
+			$_POST[$k] = $v;
+		}
+		
+		return self::_modifyUser();
 	}
 	
 	public function DELETE( $id, $query)
